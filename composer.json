@@ -1,5 +1,5 @@
 {
-    "name": "rulilg/laravel-stable-diffusion",
+    "name": "woutervandamme/laravel-stable-diffusion",
     "description": "Stable Diffusion integration with Replicate and Laravel",
     "keywords": [
         "RuliLG",
@@ -7,12 +7,12 @@
         "stable diffusion",
         "laravel-stable-diffusion"
     ],
-    "homepage": "https://github.com/rulilg/laravel-stable-diffusion",
+    "homepage": "https://www.websatelliet.be",
     "license": "MIT",
     "authors": [
         {
-            "name": "Raúl López",
-            "email": "raul@calimasolutions.com",
+            "name": "Wouter Van Damme",
+            "email": "wouter@vandamme.dev",
             "role": "Developer"
         }
     ],
@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RuliLG\\StableDiffusion\\": "src"
+            "woutervandamme\\StableDiffusion\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RuliLG\\StableDiffusion\\Tests\\": "tests"
+            "woutervandamme\\StableDiffusion\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -55,7 +55,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RuliLG\\StableDiffusion\\StableDiffusionServiceProvider"
+                "woutervandamme\\StableDiffusion\\StableDiffusionServiceProvider"
             ],
             "aliases": {
                 "StableDiffusion": "RuliLG\\StableDiffusion\\Facades\\StableDiffusion"
